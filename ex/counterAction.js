@@ -1,5 +1,5 @@
 export function inc() {
-  return { tpe: 'INC' }
+  return { type: 'INC' }
 }
 
 export function dec() {
@@ -9,6 +9,6 @@ export function dec() {
 export function stepChanged(e) {
   return {
     type: 'STEP_CHANGED',
-    paylod: e.target.value
+    payload: e.target.value
   }
 }
